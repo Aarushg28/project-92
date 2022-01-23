@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+
+</head>
+<body>
+	<center>
+		<h1 style="font-family: 'Poppins', sans-serif;">Math Quiz</h1>
+		
+		<div style="background-color: rgb(93, 6, 255); width: 150px; height: 5px; margin-top: 10px;"></div>
+		<br>	
+	</center>
+
+	<div >
+		<img src="pro.png" style="width: 20px;height: 20px; margin-left: 20px;"><h4 id="player1_name"></h4><span id="player1_score"></span>
+		<br>
+		<img src="pro.png" style="width: 20px;height: 20px; margin-left: 20px;"><h4 id="player2_name"></h4><span id="player2_score"></span>
+		<br>
+		</div>
+
+	
+
+	
+	<div>
+	<div class="split left" >
+	<div id= "container" class="centered1">
+
+	<center>
+
+		<br>
+		<div class =" number_div">
+		<h4 id="player_question"></h4>		
+		<h4 id="player_answer"></h4>
+		</div>
+		<br>
+		<div id="output" class="col-lg-4" ></div>
+		<br>
+		
+	</center>
+	</div>
+	</div>
+	</div>
+	<div class="split right" >
+		<div class="centered2">
+	<center>
+		<div class =" number_div" >	
+			<br>			
+			<label >Number 1 :</label>			
+			<br>		
+			<input type="number" id="number1" class="form-control" placeholder="Number 1">
+			<br>		
+			<label >Number 2 :</label>
+			<br>			
+			<input type="number" id="number2" class="form-control" placeholder="Number 2">
+			<br>
+			<br>
+			<button id="send" style="width:90%" class="btn btn-primary" onclick="send()">SEND</button>
+			<br>
+			<label></label>
+			<br>
+		</div>
+	</center>
+		</div>
+	</div>
+	</div>
+	
+
+</body>
+<script src="game_pg.js"></script>
+</html>

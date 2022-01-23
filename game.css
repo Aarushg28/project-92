@@ -1,0 +1,106 @@
+body
+{
+	background: lightblue;
+	background-image: url(back.png);
+	background-size: cover;
+}
+
+.login_div1 , .login_div2
+{
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+#player_1, #player_2
+{
+	 font-family: 'Poppins', sans-serif;
+	 width: 90%;
+}
+#number1, #number2
+{
+	font-family: 'Poppins', sans-serif;
+	width: 90%;
+}
+.number_div
+{
+	width: 70%;
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+#output
+{
+background: rgb(255, 255, 255);
+border-radius: 10px;
+border-top: 10px solid #24a0ed;
+padding: 10px;
+width: 70%;
+float: none;
+text-align: left;
+}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+h4{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered1 {
+	position: absolute;
+	top: 40%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+  }
+  .centered2 {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+	width: 150px;
+	border-radius: 50%;
+  }
